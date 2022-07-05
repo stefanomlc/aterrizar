@@ -1,0 +1,243 @@
+/* importamos fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+/* empezamos limpiando todo a cero */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* helpers */
+
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 40;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgba(130, 118, 218, 1), rgba(105, 88, 222, 1));
+    align-items: center;
+    width: 100%;
+}
+
+/* logo con su tamaña máximo */
+picture img {
+    width: 250px;
+    margin-left: 35px;
+}
+
+.header {
+    display: flex;
+
+}
+
+.menu {
+    display: flex;
+    /* sacamos el estilo al menu */
+    list-style: none;
+
+    justify-content: space-around;
+    /* di ancho al menú */
+    width: 40vmax;
+    padding-right: 5rem;
+}
+
+/* Doy formato a los menu */
+.menu__item {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+
+/* ----------- Sección principal */
+.seccion__principal {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    max-height: 550px;
+    background-image: linear-gradient(to right, rgba(130, 118, 218, 1), rgba(105, 88, 222, 1));
+  
+    }
+.seccion__principal h2, h4, h5 {
+    text-decoration: none;
+    color: white;
+}
+
+
+.seccion__principal article {
+    width: 35%;
+
+}
+
+.seccion__principal img {
+
+    height: 450px;
+}
+
+/* Sección pasos */
+
+.pasos {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+    background-color: rgba(138, 118, 204, 0.14);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+
+    /* margin-top: 35px; */
+    margin-bottom: 35px;
+
+}
+
+.pasos img {
+    width: 15rem;
+    margin-bottom: 3rem;
+
+}
+
+.pasos p, h5{
+    max-width: 180px;
+    text-align: center;
+    color: rgba(71, 71, 71, 1);
+}
+
+/* ----------- Sección pasos */
+
+/* --------------- Sección de referencia  */
+.index__venta {
+    
+}
+
+.index__venta article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+
+    
+}
+
+.index__venta_texto h2, h5{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+       text-align: justify;
+    
+}
+
+.index__venta img {
+    align-items: center;
+    max-height: 350px;
+    max-width: 600px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+
+/* ----------- Sección footer */
+.footer__flex {
+    /*     display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem; */
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+
+    background-image: linear-gradient(to right, rgba(130, 118, 218, 1), rgba(105, 88, 222, 1));
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;    
+}
+.footer__flex img {
+    width: 350px;
+    height: auto;
+    align-items: center;
+    padding-left: 25%;
+}
+.footer__flex ul, a {
+    display: flex;
+    flex-direction: column;    
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    gap: 5px;
+    color: rgb(252, 252, 252);
+    font-size: 18px;
+}
+
+
+.footer__newsletter h4, h6{
+    display: flex;
+    flex-direction: column;
+    padding-right: 25%;
+    text-align: justify;
+    color: rgb(252, 252, 252);
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.footer__newsletter input {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 10rem;
+    border: none;
+}
+.footer__newsletter button {
+    max-width: 5rem;
+    border: none;
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 2px;    
+}
+.footer__derechos {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, rgba(130, 118, 218, 1), rgba(105, 88, 222, 1));
+    padding: 10px;
+}
