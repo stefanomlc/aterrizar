@@ -40,7 +40,7 @@
     </header>
 
     <main>
-        <section>
+        <section class="seccion__principal">
             <article>
                 <h2>
                     LICENCIA ÚNICA
@@ -48,15 +48,16 @@
                 <h4>SIN LIMITACIONES</h4>
             </article>
 
-            <picture>
-                <img src="#" alt="Mujer sonriendo de traje">
+            <img src="/Assets/img/p6.png" alt="Mujer sonriendo de traje">
         </section>
 
-        <article>
-            <div>Pago Mensual</div>
-            <div>Pago Anual</div>
-        </article>
-        <article>
+
+        <div class="costos">
+        
+        <div class="costos__mensual">Pago Mensual</div>
+        <div class="costos__anual">Pago Anual</div>
+        
+        <article class="costos__detalle">
             <h2> INCLUYE</h2>
             <ul>
                 <li>Soporte 24/7</li>
@@ -69,8 +70,10 @@
                 <li>Diseño personalizado de colores, logo y fuente para tus páginas</li>
             </ul>
         </article>
+</div>
 
-        <article>
+
+        <article class="contacta">
             <h3>SOLICITA TU DEMO AHORA MISMO</h3>
             <button type="button"> Contactar</button>
         </article>
@@ -109,8 +112,6 @@
 
                 <!-- Inserto un CSS en este lugar para que quede junto -->
                 <div style="display: flex;">
-                    <label for="correo">mail</label>
-
                     <input type="email" name="correo" placeholder="Ingresa tu correo" id="suscriptor">
                 </div>
 
