@@ -119,6 +119,7 @@ p{
 .navbar__menu__item:hover{
     color: var(--alternative);
     background-color: white;
+    border-radius: 1px;
 
 }
 .navbar__menu__logo{
