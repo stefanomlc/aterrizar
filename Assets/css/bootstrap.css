@@ -113,8 +113,14 @@ p{
     text-decoration: none;
     padding: 0px 10px 0px 10px;
     font-size: 20px;
+    
+    
 }
+.navbar__menu__item:hover{
+    color: var(--alternative);
+    background-color: white;
 
+}
 .navbar__menu__logo{
     max-width: 200px;
 }
@@ -162,6 +168,44 @@ p{
     font-size: 1.5rem;
 }
 
+/* ----------- costos----- */
+.costos__tarjeta__mensual{
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 15px;
+    
+}
+.costos__tarjeta__anual{
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.costos__tarjeta__incluye{
+    
+
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.costos__tarjeta__incluye h4{
+
+    max-width: 250px;
+    text-align: center;
+}
+
+.costos__tarjeta__incluye ul, li{
+    list-style: none;
+    font-size: var(--text-small);
+    max-width: 350px;
+    text-align: start;
+
+}
 
 
 
