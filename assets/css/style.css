@@ -1,5 +1,42 @@
 /*Font-Sizes*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;800&display=swap");
+.ejemplo__base {
+  margin: 35px 0px 35px 0px;
+  text-align: start;
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  flex-direction: row;
+  align-items: center; }
+  .ejemplo__base__imagen {
+    width: clamp(450px, 400px, 500px);
+    padding: 0px 2rem 0px 2rem;
+    align-items: center;
+    max-width: 450px; }
+  .ejemplo__base h2 {
+    max-width: 450px; }
+  .ejemplo__base h4 {
+    max-width: 450px;
+    font-size: 25px; }
+
+@media screen and (max-width: 800px) {
+  .ejemplo__base {
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 3rem 35px 3rem; }
+    .ejemplo__base h2 {
+      padding-bottom: 15px; }
+    .ejemplo__base h4 {
+      padding-bottom: 15px; }
+    .ejemplo__base__imagen {
+      margin: 0px;
+      max-width: 450px; } }
+
+@media screen and (max-width: 400px) {
+  .ejemplo__base__imagen {
+    margin: 0px;
+    max-width: 300px; } }
+
 *::after
 *::before
 * {
@@ -98,27 +135,24 @@ p {
   padding: 0px 0px 0px 5rem;
   color: #ffffff; }
 
-.seccion_principal__img {
+.seccion_principalprincipal__img {
   max-width: 450px;
   padding: 2rem 0rem 2rem 0rem; }
 
-.seccion_principal__img__costos {
+.seccion_principal_principal__img__costos {
   max-width: 450px; }
 
 /* --------- pasos-------------*/
 .pasos {
   padding: 5rem;
   background-color: #eeecf8; }
-
-.pasos_items {
-  padding: 2rem 0rem 2rem 0rem; }
-
-.pasos h2 {
-  font-size: var(--text-medium);
-  margin: 1rem 0rem 1rem 0rem; }
-
-.pasos p {
-  font-size: 1.5rem; }
+  .pasos h2 {
+    font-size: var(--text-medium);
+    margin: 1rem 0rem 1rem 0rem; }
+  .pasos_items {
+    padding: 2rem 0rem 2rem 0rem; }
+  .pasos p {
+    font-size: 1.5rem; }
 
 /* ----------- costos----- */
 .seccion_principal__img__costos {
@@ -174,7 +208,7 @@ p {
     text-align: center; }
   .costos__tarjeta__base {
     border: none;
-    width: 100%;
+    width: auto;
     height: 100%;
     margin: 0%;
     padding: 0px; }
@@ -232,7 +266,11 @@ p {
   .footer__menu__icon {
     margin: 10px 0px 20px 0px; }
   .footer__mar_zero {
-    padding: 0; } }
+    padding: 0; }
+  .footer .costos__tarjeta__incluye h4 {
+    width: 100%; }
+  .footer .costos___tarjeta__base {
+    width: 100%; } }
 
 @media screen and (max-width: 600px) {
   .costos {
@@ -259,4 +297,11 @@ p {
   .navbar__menu__icon {
     margin: 10px 0px 35px 0px; }
   .navbar__menu__logo {
-    margin: 20px; } }
+    margin: 20px; }
+  .costos___tarjeta__incluye {
+    width: 100%;
+    padding: 5px; }
+  .costos__tarjeta__base {
+    padding: 5px; }
+  .solicitar__demo__base {
+    flex-direction: column; } }

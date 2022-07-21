@@ -1,5 +1,5 @@
 @import "_variables";
-@import "_ejemplo";
+@import "_ejemplos";
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;800&display=swap');
 
@@ -121,37 +121,39 @@ p{
     max-height: 650px;
 }
 
-.seccion_principal__text{
-    max-width: 550px;
-    padding: 0px 0px 0px 5rem;
-    color: #ffffff;
+.seccion_principal{
+    &__text{
+        max-width: 550px;
+        padding: 0px 0px 0px 5rem;
+        color: #ffffff;
+    }
+    &principal__img{
+        max-width: 450px;
+        padding: 2rem 0rem 2rem 0rem;
+    }
+    &_principal__img__costos{
+        max-width: 450px;
+    }
+    
 }
-
-.seccion_principal__img{
-    max-width: 450px;
-    padding: 2rem 0rem 2rem 0rem;
-}
-.seccion_principal__img__costos{
-    max-width: 450px;
-}
-
 
 /* --------- pasos-------------*/
 .pasos{
     padding: 5rem;    
     background-color: #eeecf8;
+    h2{
+        font-size: var(--text-medium);
+        margin: 1rem 0rem 1rem 0rem;}
+    
+    &_items{
+    padding: 2rem 0rem 2rem 0rem;
+    }
+    p{
+        font-size: 1.5rem;
+
+    }
 }
 
-.pasos_items{
-    padding: 2rem 0rem 2rem 0rem;
-}
-.pasos h2{
-    font-size: var(--text-medium);
-    margin: 1rem 0rem 1rem 0rem;
-}
-.pasos p{
-    font-size: 1.5rem;
-}
 
 /* ----------- costos----- */
 .seccion_principal__img__costos{
@@ -223,7 +225,7 @@ p{
     }
     &__tarjeta__base{
         border: none;
-        width: 100%;
+        width: auto;
         height: 100%;
         
         margin: 0%;
@@ -310,6 +312,15 @@ p{
         padding: 0;
         
     }
+    .costos{
+        &__tarjeta__incluye h4{
+            width: 100%;
+
+        }
+        &___tarjeta__base{
+            width: 100%;
+        }
+    }
 }
 
 
@@ -360,8 +371,27 @@ p{
     &__menu__logo{
         margin: 20px;
     }
-}
+    }
+    .costos{
+        
+       
+        &___tarjeta__incluye{
+            width: 100%;
+            padding: 5px;
+        }
+        &__tarjeta__base{
+            padding: 5px;
+        }
+    }
+    .solicitar{
+            &__demo__base{
+                flex-direction: column;
+            }
+        }
     
 
 
 }
+    
+
+
