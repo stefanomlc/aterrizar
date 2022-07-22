@@ -88,11 +88,59 @@
       align-items: center; }
     .contacto__conoce__base__imag {
       width: 450px; }
+  .contacto__conoce__datos {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 2rem 0px 2rem;
+    max-width: 350px; }
+    .contacto__conoce__datos input {
+      border: none;
+      width: 250px;
+      background-color: #ffffff;
+      height: 45px;
+      border-radius: 5px;
+      margin: 5px;
+      text-align: none;
+      color: #ffffff; }
+    .contacto__conoce__datos textarea {
+      border: none;
+      background-color: #ffffff;
+      width: 250px;
+      border-radius: 5px;
+      margin: 5px;
+      height: 100px; }
+    .contacto__conoce__datos__botones {
+      text-align: center;
+      max-width: 150px; }
 
 .contacto__text {
   max-width: 550px;
   padding: 0px 0px 0px 5rem;
   color: #000000; }
+
+.seccion__contacto {
+  background-color: #eeecf8;
+  padding-top: 25px; }
+
+@media screen and (max-width: 700px) {
+  .contacto__conoce__datos {
+    align-items: center; }
+    .contacto__conoce__datos input {
+      text-align: center;
+      width: 350px; }
+    .contacto__conoce__datos textarea {
+      text-align: center;
+      width: 350px; } }
+
+@media screen and (max-width: 400px) {
+  .contacto__conoce__datos {
+    padding: 0px 10px 0px 10px; }
+    .contacto__conoce__datos input {
+      text-align: center;
+      width: 200px; }
+    .contacto__conoce__datos textarea {
+      text-align: center;
+      width: 200px; } }
 
 *::after
 *::before
