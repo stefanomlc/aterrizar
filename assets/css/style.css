@@ -50,6 +50,41 @@
     margin: 0px;
     max-width: 300px; } }
 
+.propuesta__icono {
+  height: 100px; }
+
+.propuesta__mision {
+  text-align: center;
+  background-image: linear-gradient(to right, #8276da, #6958de);
+  border-radius: 15px;
+  padding: 3rem;
+  margin: 2rem;
+  color: white; }
+  .propuesta__mision h4 {
+    font-size: 4rem; }
+  .propuesta__mision p {
+    font-size: 2rem;
+    padding: 0; }
+
+.contacto__conoce {
+  display: flex;
+  justify-content: space-around;
+  padding: none; }
+  .contacto__conoce__base {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px 0px 0px 0px;
+    text-align: start; }
+    .contacto__conoce__base__texto {
+      align-items: center; }
+    .contacto__conoce__base__imag {
+      width: 450px; }
+
+.contacto__text {
+  max-width: 550px;
+  padding: 0px 0px 0px 5rem;
+  color: #000000; }
+
 *::after
 *::before
 * {
