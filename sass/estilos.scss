@@ -118,23 +118,31 @@ p{
 
 
 
+
+
 .seccion__principal{
+/*     height: 80wv; */
     min-height: 250px;
     max-height: 650px;
-}
-
-.seccion_principal{
+    /* margin-right: 100px; */
+    
+    
     &__text{
-        max-width: 550px;
-        padding: 0px 0px 0px 5rem;
+        max-width: 450px;
+        margin: 0px 0px 0px 250px;
         color: #ffffff;
+
     }
-    &principal__img{
+    &__img{
         max-width: 450px;
         padding: 2rem 0rem 2rem 0rem;
+        img{
+            max-width: 450px;
+        }
     }
     &_principal__img__costos{
         max-width: 450px;
+        align-items: end;
     }
     
 }

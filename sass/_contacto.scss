@@ -37,7 +37,7 @@
             border-radius: 5px;
             margin: 5px;
             text-align: none;
-            color: #ffffff;
+            color: #000000;
 
         }
         textarea{
@@ -49,9 +49,9 @@
             height: 100px;
         }
 
-        &__botones{
-            text-align: center;
-            
+        &__boton{
+            /* text-align: center;
+            color: #ffffff; */
             max-width: 150px;
 
         }
