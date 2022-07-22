@@ -54,17 +54,26 @@
   height: 100px; }
 
 .propuesta__mision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
   text-align: center;
   background-image: linear-gradient(to right, #8276da, #6958de);
   border-radius: 15px;
   padding: 3rem;
-  margin: 2rem;
+  margin: 100px 250px 80px 250px;
   color: white; }
   .propuesta__mision h4 {
     font-size: 4rem; }
   .propuesta__mision p {
     font-size: 2rem;
     padding: 0; }
+
+@media screen and (max-width: 1300px) {
+  .propuesta__mision {
+    margin: 80px 50px 80px 50px; } }
 
 .contacto__conoce {
   display: flex;
