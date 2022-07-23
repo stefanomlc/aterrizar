@@ -116,7 +116,7 @@
 
 .contacto__text {
   max-width: 550px;
-  padding: 0px 0px 0px 20rem;
+  padding: 0px 0px 0px 22rem;
   color: #000000; }
 
 .seccion__contacto {
@@ -166,7 +166,7 @@ html {
   padding: 0; }
 
 h1 {
-  font-size: 4.5rem; }
+  font-size: 5rem; }
 
 h2 {
   font-size: 4rem; }
@@ -255,7 +255,7 @@ p {
     color: #ffffff; }
     .seccion__principal__text h1 {
       max-width: 350px;
-      font-size: 5em; }
+      font-size: 50px; }
     .seccion__principal__text p {
       max-width: 350px; }
   .seccion__principal__index {
