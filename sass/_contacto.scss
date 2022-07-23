@@ -59,7 +59,7 @@
     }
     &__text{
         max-width: 550px;
-        padding: 0px 0px 0px 5rem;
+        padding: 0px 0px 0px 20rem;
         color: #000000;
     }
     
@@ -67,7 +67,28 @@
 
 .seccion__contacto{
     background-color: #eeecf8;
-    padding-top: 25px;
+
+    padding: 25px 200px 0px 200px;
+}
+
+@media screen  and (max-width: 1000px){
+    .seccion__contacto{
+        background-color: #eeecf8;
+    
+        padding: 25px 50px 0px 50px;
+    }
+    
+}
+@media screen  and (max-width: 900px){
+    .contacto{
+
+
+        &__text{
+            
+            padding: 0px 0px 0px 5rem;
+            
+        }
+    }
 }
 
 @media screen  and (max-width: 700px){

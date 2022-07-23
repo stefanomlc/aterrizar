@@ -116,12 +116,21 @@
 
 .contacto__text {
   max-width: 550px;
-  padding: 0px 0px 0px 5rem;
+  padding: 0px 0px 0px 20rem;
   color: #000000; }
 
 .seccion__contacto {
   background-color: #eeecf8;
-  padding-top: 25px; }
+  padding: 25px 200px 0px 200px; }
+
+@media screen and (max-width: 1000px) {
+  .seccion__contacto {
+    background-color: #eeecf8;
+    padding: 25px 50px 0px 50px; } }
+
+@media screen and (max-width: 900px) {
+  .contacto__text {
+    padding: 0px 0px 0px 5rem; } }
 
 @media screen and (max-width: 700px) {
   .contacto__conoce__datos {
@@ -155,6 +164,9 @@ html {
   font-size: 62.5%;
   background-color: #ffffff;
   padding: 0; }
+
+h1 {
+  font-size: 4.5rem; }
 
 h2 {
   font-size: 4rem; }
@@ -241,10 +253,14 @@ p {
     max-width: 450px;
     margin: 0px 0px 0px 250px;
     color: #ffffff; }
-    .seccion__principal__text h2 {
+    .seccion__principal__text h1 {
       max-width: 350px; }
     .seccion__principal__text p {
       max-width: 350px; }
+  .seccion__principal__index {
+    max-width: 450px; }
+    .seccion__principal__index p, .seccion__principal__index h2 {
+      max-width: auto; }
   .seccion__principal__img {
     max-width: 450px;
     padding: 2rem 0rem 2rem 0rem; }
