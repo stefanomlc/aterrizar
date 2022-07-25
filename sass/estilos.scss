@@ -1,7 +1,15 @@
-@import "_variables";
-@import "_ejemplos";
-@import "_propuesta.scss";
-@import "_contacto.scss";
+@import "utilities/_variables";
+
+@import "views/_contacto";
+@import "views/_costos";
+@import "views/_ejemplos";
+@import "views/_propuesta";
+
+@import "layout/_footer";
+@import "layout/_header";
+
+@import "utilities/_mediaqueries";
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;800&display=swap');
 
@@ -129,6 +137,10 @@ p{
     min-height: 250px;
     max-height: 650px;
     /* margin-right: 100px; */
+    &__fondo{
+            /* clip-path: polygon(100% 0, 100% 90%, 65% 100%, 0 90%, 0 0); */
+    }
+
     
     
     &__text{
@@ -173,6 +185,7 @@ p{
 .pasos{
     padding: 5rem;    
     background-color: #eeecf8;
+
     h2{
         font-size: var(--text-medium);
         margin: 1rem 0rem 1rem 0rem;}

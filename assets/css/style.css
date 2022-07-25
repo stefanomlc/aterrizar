@@ -1,80 +1,5 @@
 /*Font-Sizes*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;800&display=swap");
-.ejemplo__base {
-  margin: 35px 0px 35px 0px;
-  text-align: start;
-  display: flex;
-  width: 100%;
-  padding: 0px;
-  flex-direction: row;
-  align-items: center; }
-  .ejemplo__base__imagen {
-    width: clamp(450px, 400px, 500px);
-    padding: 0px 2rem 0px 2rem;
-    align-items: center;
-    max-width: 450px; }
-  .ejemplo__base h2 {
-    max-width: 450px; }
-  .ejemplo__base h4 {
-    max-width: 450px;
-    font-size: 25px; }
-
-@media screen and (max-width: 800px) {
-  .ejemplo__base {
-    flex-direction: column;
-    align-items: center;
-    margin: 35px 3rem 35px 3rem; }
-    .ejemplo__base h2 {
-      padding-bottom: 15px; }
-    .ejemplo__base h4 {
-      padding-bottom: 15px; }
-    .ejemplo__base__imagen {
-      margin: 0px;
-      max-width: 450px; } }
-
-@media screen and (max-width: 550px) {
-  .ejemplo__base {
-    padding: 20px;
-    margin: 0px;
-    align-items: center; }
-    .ejemplo__base__imagen {
-      margin: 0px;
-      max-width: 250px; }
-  .ejemplo h2 {
-    padding: 20px; }
-  .ejemplo h4 {
-    padding-bottom: 15px; } }
-
-@media screen and (max-width: 400px) {
-  .ejemplo__base__imagen {
-    margin: 0px;
-    max-width: 300px; } }
-
-.propuesta__icono {
-  height: 100px; }
-
-.propuesta__mision {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  background-image: linear-gradient(to right, #8276da, #6958de);
-  border-radius: 15px;
-  padding: 3rem;
-  margin: 100px 250px 80px 250px;
-  color: white; }
-  .propuesta__mision h4 {
-    font-size: 4rem; }
-  .propuesta__mision p {
-    font-size: 2rem;
-    padding: 0; }
-
-@media screen and (max-width: 1300px) {
-  .propuesta__mision {
-    margin: 80px 50px 80px 50px; } }
-
 .contacto__conoce {
   display: flex;
   justify-content: space-around;
@@ -151,6 +76,81 @@
     .contacto__conoce__datos textarea {
       text-align: center;
       width: 200px; } }
+
+.ejemplo__base {
+  margin: 35px 0px 35px 0px;
+  text-align: start;
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  flex-direction: row;
+  align-items: center; }
+  .ejemplo__base__imagen {
+    width: clamp(450px, 400px, 500px);
+    padding: 0px 2rem 0px 2rem;
+    align-items: center;
+    max-width: 450px; }
+  .ejemplo__base h2 {
+    max-width: 450px; }
+  .ejemplo__base h4 {
+    max-width: 450px;
+    font-size: 25px; }
+
+@media screen and (max-width: 800px) {
+  .ejemplo__base {
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 3rem 35px 3rem; }
+    .ejemplo__base h2 {
+      padding-bottom: 15px; }
+    .ejemplo__base h4 {
+      padding-bottom: 15px; }
+    .ejemplo__base__imagen {
+      margin: 0px;
+      max-width: 450px; } }
+
+@media screen and (max-width: 550px) {
+  .ejemplo__base {
+    padding: 20px;
+    margin: 0px;
+    align-items: center; }
+    .ejemplo__base__imagen {
+      margin: 0px;
+      max-width: 250px; }
+  .ejemplo h2 {
+    padding: 20px; }
+  .ejemplo h4 {
+    padding-bottom: 15px; } }
+
+@media screen and (max-width: 400px) {
+  .ejemplo__base__imagen {
+    margin: 0px;
+    max-width: 300px; } }
+
+.propuesta__icono {
+  height: 100px; }
+
+.propuesta__mision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-image: linear-gradient(to right, #8276da, #6958de);
+  border-radius: 15px;
+  padding: 3rem;
+  margin: 100px 250px 80px 250px;
+  color: white; }
+  .propuesta__mision h4 {
+    font-size: 4rem; }
+  .propuesta__mision p {
+    font-size: 2rem;
+    padding: 0; }
+
+@media screen and (max-width: 1300px) {
+  .propuesta__mision {
+    margin: 80px 50px 80px 50px; } }
 
 *::after
 *::before
@@ -249,6 +249,8 @@ p {
   min-height: 250px;
   max-height: 650px;
   /* margin-right: 100px; */ }
+  .seccion__principal__fondo {
+    /* clip-path: polygon(100% 0, 100% 90%, 65% 100%, 0 90%, 0 0); */ }
   .seccion__principal__text {
     max-width: 450px;
     margin: 0px 0px 0px 250px;
