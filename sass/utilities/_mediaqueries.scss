@@ -11,6 +11,28 @@
             }
     }
 
+    @media screen  and (max-width: 1300px){
+        .propuesta{
+            &__icono{
+    
+        
+            }
+            &__mision{
+    
+                margin: 80px 50px 80px 50px;
+            }
+        }
+    }
+
+@media screen  and (max-width: 1000px){
+    .seccion__contacto{
+        background-color: #eeecf8;
+    
+        padding: 25px 50px 0px 50px;
+    }
+    
+}
+
 
 @media screen  and (max-width: 992px){
     .footer{
@@ -44,7 +66,69 @@
         }
     }
 }
+}
 
+@media screen  and (max-width: 900px){
+    .contacto{
+
+
+        &__text{
+            
+            padding: 0px 0px 0px 5rem;
+            
+        }
+    }
+}
+
+
+
+@media screen  and (max-width: 800px){
+    .ejemplo{
+        &__base{
+            flex-direction: column;
+            align-items: center;
+            margin: 35px 3rem 35px 3rem;
+            h2{
+                padding-bottom: 15px;
+            }
+            h4{
+                padding-bottom: 15px;
+            }
+            &__imagen{
+                margin:  0px;
+                max-width: 450px;
+        
+        }
+        
+        }
+
+    }
+}
+
+@media screen  and (max-width: 700px){
+    .contacto{
+        &__conoce{
+            &__datos{
+                align-items: center;
+                input{
+                    text-align: center;
+                    width: 350px;
+    
+                     }
+                    textarea{
+                        text-align: center;
+                        width: 350px;
+
+                    }
+                
+            }
+
+    
+            &__botones{
+    
+            }
+        }
+    }
 
 }
 
@@ -113,7 +197,46 @@
 
 
 }
+
+@media screen  and (max-width: 550px){
+    .ejemplo{
+        &__base{
+            padding: 20px;
+            margin: 0px;
+            align-items: center;
+
+        &__imagen{
+            margin:  0px;
+            max-width: 250px;
+    
+                }
+        }
+        h2{
+            padding: 20px;
+        }
+        h4{
+            padding-bottom: 15px;
+        }
+
+    
+    
+    }
+}
+
 @media screen  and (max-width: 400px){
+    .ejemplo{
+        &__base{
+
+            &__imagen{
+                margin:  0px;
+                max-width: 300px;
+        
+        }
+        
+        }
+
+    }
+
 
     .flex__nav{
         flex-direction: column;
@@ -128,6 +251,7 @@
         margin: 20px;
     }
     }
+
     .costos{
         
        
@@ -143,7 +267,33 @@
             &__demo__base{
                 flex-direction: column;
             }
+    }
+
+    .contacto{
+        &__conoce{
+            &__datos{
+                padding: 0px 10px 0px 10px;
+
+                
+                input{
+                    text-align: center;
+                    width: 200px;
+    
+                     }
+                    textarea{
+                        text-align: center;
+                        width: 200px;
+
+                    }
+                
+            }
+
+    
+            &__botones{
+    
+            }
         }
+    }
     
 
 
