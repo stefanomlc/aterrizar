@@ -1,0 +1,150 @@
+@media screen  and (max-width:1400px){
+    .seccion__principal{
+           
+            
+            &__text{
+                
+                margin: 0px 0px 0px 100px;
+
+                }
+        
+            }
+    }
+
+
+@media screen  and (max-width: 992px){
+    .footer{
+    &__img{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+        padding-right: 60px;
+    }
+    &__newsletter{
+        justify-content: center;
+
+    }
+
+    &__menu__icon{
+        margin: 10px 0px 20px 0px;
+    }
+    &__mar_zero{
+        padding: 0;
+        
+    }
+    .costos{
+        &__tarjeta__incluye h4{
+            width: 100%;
+
+        }
+        &___tarjeta__base{
+            width: 100%;
+        }
+    }
+}
+
+
+}
+
+@media screen  and (max-width: 600px){
+    .seccion__principal{
+            &__text{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                max-width: 450px;
+                margin: 0px 0px 0px 0px;
+                color: #ffffff;
+                h2{
+                    max-width: 250px;
+                    margin: 0px;
+                    
+                }
+                p{
+                    max-width: 250px;
+                    
+                }
+        
+            }
+            &__img{
+                max-width: 250px;
+                padding: 2rem 0rem 2rem 0rem;
+                img{
+                    max-width: 250px;
+                }
+            }
+            &_principal__img__costos{
+                max-width: 450px;
+                align-items: end;
+            }
+            
+        }
+    .costos{
+        flex-direction: column;
+        align-items: center;
+    
+
+    &__tarjeta{
+        align-items: center;
+    }
+    &__tarjeta__incluye{
+        padding: 0rem;
+        
+    }
+    &__tarjeta__dimension{
+        display: flex;
+        align-items: center;
+        
+    }
+    &__detalle{
+        margin: 10px;
+        padding: 5px;
+    }
+    &__demo__base{
+        flex-direction: column;       
+    }
+    &__demo__h5{
+        margin: 15px;
+    }
+}
+
+
+}
+@media screen  and (max-width: 400px){
+
+    .flex__nav{
+        flex-direction: column;
+        
+        
+    }
+    .navbar{
+    &__menu__icon{
+        margin: 10px 0px 35px 0px;
+    }
+    &__menu__logo{
+        margin: 20px;
+    }
+    }
+    .costos{
+        
+       
+        &___tarjeta__incluye{
+            width: 100%;
+            padding: 5px;
+        }
+        &__tarjeta__base{
+            padding: 5px;
+        }
+    }
+    .solicitar{
+            &__demo__base{
+                flex-direction: column;
+            }
+        }
+    
+
+
+}

@@ -1,0 +1,95 @@
+.seccion_principal__img__costos{
+    width: 50wv;
+    min-width: 100px;
+    max-width: 450px;
+}
+
+.costos{
+    max-width: auto;
+
+    &__tarjeta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        
+    }
+    &__tarjeta__dimension{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 15vh;
+        max-width: 500px;
+        border-radius: 15px;        
+    }
+    &__tarjeta__mensual{
+        text-align: center;
+        margin: 15px;
+        align-content: center;
+    }
+    &__font_size__h3{
+        font-size: 4rem;
+    }
+    &__font_size__h5{
+        font-size: 2rem;
+    }
+    &__tarjeta__anual{
+        text-align: center;
+        margin: 15px;
+    }
+    &__tarjeta__incluye {
+        width: auto;
+            
+
+        text-align: center;
+        align-items: center;
+        padding: 25px;
+        border-radius: 15px;
+        margin: 0%;
+    }
+        h4{
+            max-width: 250px;
+            text-align: center;
+            font-size: 5rem;
+        }
+        li{
+            list-style: none;
+            font-size: 2rem;
+            max-width: 350px;
+            text-align: start;}
+        
+    &__tarjeta__incluye h4{
+        width: 100%;
+        height: 100%;
+
+        text-align: center;
+    }
+    &__tarjeta__base{
+        border: none;
+        width: auto;
+        height: 100%;
+        
+        margin: 0%;
+        padding: 0px;
+
+    }
+}
+
+
+
+
+/* ---------------- Solicitar tu demo */
+.solicitar{
+    &__demo__base{
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0px 10px 0px ;
+}
+    &__demo__h5{
+        text-align: center;
+        margin: 0px;
+        font-size: 2rem;
+    }
+
+}

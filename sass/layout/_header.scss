@@ -1,0 +1,20 @@
+.navbar{
+    &__menu__item{
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    }
+    &__menu__item:hover{
+        color: var(--alternative);
+        background-color: white;
+        border-radius: 1px;
+    }
+    &__menu__logo{
+        width: clamp(150px, 89%,200px);
+    }
+    &__menu__icon{
+        /* Da color al icono */
+        border-color: var(--text-white);
+        background-color: #ffffff;
+    }
+}
