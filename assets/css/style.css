@@ -230,7 +230,8 @@
 .navbar__menu__item:hover {
   color: var(--alternative);
   background-color: white;
-  border-radius: 1px; }
+  border-radius: 1px;
+  color: #7f73db; }
 
 .navbar__menu__logo {
   width: clamp(150px, 89%, 200px); }
