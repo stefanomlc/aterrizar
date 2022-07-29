@@ -1,3 +1,13 @@
+ @mixin dflex-row{
+    display:flex;
+    flex-direction:row;
+    }
+@mixin dflex-col{
+    display:flex;
+    flex-direction:column;
+    }
+
+
 .seccion__principal{
     /*     height: 80wv; */
         min-height: 250px;
@@ -48,19 +58,32 @@
     }
     
     /* --------- pasos-------------*/
-    .pasos{
-        padding: 5rem;    
-        background-color: #eeecf8;
-    
+
+
+.pasos{
+    padding: 5rem;    
+    background-color: #eeecf8;
+
+    &__seccion{
+
+        @include dflex-row;
+
         h2{
-            font-size: var(--text-medium);
-            margin: 1rem 0rem 1rem 0rem;}
-        
-        &_items{
-        padding: 2rem 0rem 2rem 0rem;
+        font-size: 3rem;
+        margin: 1rem 0rem 1rem 0rem;
         }
+            
+
         p{
             font-size: 1.5rem;
-    
         }
     }
+
+    &_items{
+        padding: 2rem 0rem 2rem 0rem;
+    }
+
+
+}
+
+       

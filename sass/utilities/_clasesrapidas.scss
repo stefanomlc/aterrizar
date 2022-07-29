@@ -48,3 +48,14 @@
 .fuente__negra{
     color: #1a1a1a;
 }
+
+@mixin dflex-row{
+	display:flex;
+	flex-direction:row;
+}
+
+
+@mixin dflex-col{
+	display:flex;
+	flex-direction:column;
+}

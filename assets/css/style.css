@@ -81,13 +81,16 @@
 .pasos {
   padding: 5rem;
   background-color: #eeecf8; }
-  .pasos h2 {
-    font-size: var(--text-medium);
-    margin: 1rem 0rem 1rem 0rem; }
+  .pasos__seccion {
+    display: flex;
+    flex-direction: row; }
+    .pasos__seccion h2 {
+      font-size: 3rem;
+      margin: 1rem 0rem 1rem 0rem; }
+    .pasos__seccion p {
+      font-size: 1.5rem; }
   .pasos_items {
     padding: 2rem 0rem 2rem 0rem; }
-  .pasos p {
-    font-size: 1.5rem; }
 
 .seccion_principal__img__costos {
   width: 50wv;
