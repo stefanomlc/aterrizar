@@ -49,6 +49,8 @@
     color: #1a1a1a;
 }
 
+/* ----- mixin ----- */
+
 @mixin dflex-row{
     display:flex;
     flex-direction:row;

@@ -43,6 +43,7 @@
 .fuente__negra {
   color: #1a1a1a; }
 
+/* ----- mixin ----- */
 .contacto__conoce {
   display: flex;
   justify-content: space-around;
@@ -252,12 +253,8 @@
   font-size: 15px; }
 
 .seccion__principal {
-  /*     height: 80wv; */
   min-height: 250px;
-  max-height: 650px;
-  /* margin-right: 100px; */ }
-  .seccion__principal__fondo {
-    /* clip-path: polygon(100% 0, 100% 90%, 65% 100%, 0 90%, 0 0); */ }
+  max-height: 650px; }
   .seccion__principal__text {
     max-width: 450px;
     margin: 0px 0px 0px 250px;
