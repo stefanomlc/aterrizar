@@ -288,6 +288,9 @@
     .solicitar{
             &__demo__base{
                 flex-direction: column;
+                .btn{
+                    margin-top: 10px;
+                }
             }
     }
 

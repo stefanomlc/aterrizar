@@ -226,6 +226,12 @@
     max-width: 170px;
     color: #302F4D;
     font-weight: 600; }
+  .footer__boton:hover {
+    border: 0px;
+    max-width: 170px;
+    color: white;
+    background-color: #8276da;
+    font-weight: 600; }
 
 /* ------------ footer------------ */
 .navbar__footer__logo {
@@ -256,7 +262,7 @@
 /* --------- Estilo boton ---------- */
 .btn {
   text-align: center;
-  color: var(#e5e4fa);
+  color: #302F4D;
   background-color: white;
   margin: 0px;
   font-size: 15px; }
@@ -473,6 +479,8 @@ p {
     padding: 5px; }
   .solicitar__demo__base {
     flex-direction: column; }
+    .solicitar__demo__base .btn {
+      margin-top: 10px; }
   .contacto__conoce__datos {
     padding: 0px 10px 0px 10px; }
     .contacto__conoce__datos input {
