@@ -1,3 +1,5 @@
+/* --------- Sección Principal ---------- */
+
 .seccion__principal{
     
         min-height: 250px;
@@ -6,7 +8,7 @@
         &__text{
             max-width: 450px;
             margin: 0px 0px 0px 250px;
-            color: #ffffff;
+            color: $text-white;
             h1{
                 max-width: 350px;
                 font-size: 50px;
@@ -37,6 +39,14 @@
         &_principal__img__costos{
             max-width: 450px;
             align-items: end;
+        }
+        
+        
+        &--detalle{
+            background-image: $gradiente;
+            height: 150px;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 70% 100%, 0 60%);
+            float: inherit;
         }
         
     }

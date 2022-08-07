@@ -1,4 +1,7 @@
+@charset "UTF-8";
+/* --------- Variables ---------- */
 /*Font-Sizes*/
+/* --------- Clases rápidas ---------- */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;800&display=swap");
 .max__w450 {
   max-width: 450px; }
@@ -44,6 +47,7 @@
   color: #1a1a1a; }
 
 /* ----- mixin ----- */
+/* --------- Página de contacto ---------- */
 .contacto__conoce {
   display: flex;
   justify-content: space-around;
@@ -92,6 +96,7 @@
   background-color: #eeecf8;
   padding: 25px 200px 0px 200px; }
 
+/* --------- Página INDEX ---------- */
 /* --------- pasos-------------*/
 .pasos {
   padding: 5rem;
@@ -107,6 +112,7 @@
   .pasos_items {
     padding: 2rem 0rem 2rem 0rem; }
 
+/* --------- Página de costos ---------- */
 .seccion_principal__img__costos {
   width: 50wv;
   min-width: 100px;
@@ -165,6 +171,7 @@
     margin: 0%;
     padding: 0px; }
 
+/* --------- Página de ejemplo ---------- */
 .ejemplo__base {
   margin: 35px 0px 35px 0px;
   text-align: start;
@@ -184,6 +191,7 @@
     max-width: 450px;
     font-size: 25px; }
 
+/* --------- Página propuesta ---------- */
 .propuesta__icono {
   height: 100px; }
 
@@ -245,13 +253,15 @@
   border-color: var(--text-white);
   background-color: #ffffff; }
 
+/* --------- Estilo boton ---------- */
 .btn {
   text-align: center;
-  color: var(#302F4D);
+  color: var(#e5e4fa);
   background-color: white;
   margin: 0px;
   font-size: 15px; }
 
+/* --------- Sección Principal ---------- */
 .seccion__principal {
   min-height: 250px;
   max-height: 650px; }
@@ -276,8 +286,13 @@
   .seccion__principal_principal__img__costos {
     max-width: 450px;
     align-items: end; }
+  .seccion__principal--detalle {
+    background-image: linear-gradient(to right, #8276da, #6958de);
+    height: 150px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 70% 100%, 0 60%);
+    float: inherit; }
 
-/* ---------------- Solicitar tu demo */
+/* ---------------- Solicitar tu demo ------------ */
 .solicitar__demo__base {
   align-items: center;
   padding: 15px;
@@ -318,6 +333,7 @@ p {
   font-size: 18px;
   font-weight: 400; }
 
+/* --------- Media Queries ---------- */
 @media screen and (max-width: 1400px) {
   .seccion__principal__text {
     margin: 0px 0px 0px 100px; } }
