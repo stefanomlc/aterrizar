@@ -32,6 +32,12 @@
     
         padding: 25px 50px 0px 50px;
     }
+    .pasos{
+        &__seccion{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
     
 }
 
@@ -80,6 +86,19 @@
             
         }
     }
+    .seccion{
+        &__principal{
+            padding: 0px 15px 0px 15px;
+            &__img{
+                img{
+                    width: 350px;
+                }
+                display: flex;
+                justify-content: center;                
+            }
+
+        }
+    }
 }
 
 
@@ -105,6 +124,7 @@
         }
 
     }
+
 }
 
 @media screen  and (max-width: 700px){
