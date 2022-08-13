@@ -42,19 +42,11 @@
             color: #000000;
 
         }
-        textarea{
-            border: none;
-            background-color: #ffffff;
-            width: 250px;
-            border-radius: 5px;
-            margin: 5px;
-            height: 100px;
-        }
+
 
         &__boton{
-            /* text-align: center;
-            color: #ffffff; */
             max-width: 150px;
+            background-color: #000000;
 
         }
     }
@@ -63,12 +55,46 @@
         max-width: 550px;
         padding: 0px 0px 0px 22rem;
         color: #000000;
+
     }
-    
+    &__encuentranos{
+
+        max-width: 350px;
+        padding: 0px 0px 0px 0rem;
+        color: #000000;
+        
+        
+        a{
+            text-decoration: none;
+            font-size: $text-medium;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+        h2{
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        &__img{
+            max-height: 350px;
+            transform: rotateY(180deg);
+        }
+    }
 }
 
-.seccion__contacto{
+.seccion{
+    &__contacto{
     background-color: #eeecf8;
 
     padding: 25px 200px 0px 200px;
+}
+
+}
+
+.googlemap{
+    width: 100vw;
+    height: 450px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
 }

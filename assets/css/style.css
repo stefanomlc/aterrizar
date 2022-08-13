@@ -75,26 +75,41 @@
       margin: 5px;
       text-align: none;
       color: #000000; }
-    .contacto__conoce__datos textarea {
-      border: none;
-      background-color: #ffffff;
-      width: 250px;
-      border-radius: 5px;
-      margin: 5px;
-      height: 100px; }
     .contacto__conoce__datos__boton {
-      /* text-align: center;
-            color: #ffffff; */
-      max-width: 150px; }
+      max-width: 150px;
+      background-color: #000000; }
 
 .contacto__text {
   max-width: 550px;
   padding: 0px 0px 0px 22rem;
   color: #000000; }
 
+.contacto__encuentranos {
+  max-width: 350px;
+  padding: 0px 0px 0px 0rem;
+  color: #000000; }
+  .contacto__encuentranos a {
+    text-decoration: none;
+    font-size: 2.2em;
+    color: #000000;
+    margin-bottom: 20px; }
+  .contacto__encuentranos h2 {
+    margin-bottom: 15px;
+    margin-top: 15px; }
+  .contacto__encuentranos__img {
+    max-height: 350px;
+    transform: rotateY(180deg); }
+
 .seccion__contacto {
   background-color: #eeecf8;
   padding: 25px 200px 0px 200px; }
+
+.googlemap {
+  width: 100vw;
+  height: 450px;
+  border: 0;
+  margin: 0;
+  padding: 0; }
 
 /* --------- Página INDEX ---------- */
 /* --------- pasos-------------*/
@@ -397,7 +412,9 @@ p {
       padding-bottom: 15px; }
     .ejemplo__base__imagen {
       margin: 0px;
-      max-width: 450px; } }
+      max-width: 450px; }
+  .contacto__encuentranos {
+    text-align: center; } }
 
 @media screen and (max-width: 700px) {
   .contacto__conoce__datos {
