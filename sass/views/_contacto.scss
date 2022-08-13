@@ -33,13 +33,15 @@
 
         input{
             border: none;
-            width: 250px;
+            width: none;
             background-color: #ffffff;
             height: 45px;
             border-radius: 5px;
             margin: 5px;
+            padding-left: 15px;
             text-align: none;
             color: #000000;
+            font-size: $text-small;
 
         }
 

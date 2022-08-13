@@ -13,25 +13,72 @@
             }
     }
 
-    @media screen  and (max-width: 1300px){
-        .propuesta{
-            &__icono{
-    
-        
+@media screen  and (max-width: 1300px){
+    .seccion__principal{
+           
+            
+        &__text {
+            width: 450;
+            
+            margin: 0px 0px 0px 100px;
+            text-align: start;
+            h1{
+                margin: 0%;
+                max-width: auto;
             }
+
+            }
+    
+        }
+}
+
+@media screen  and (max-width: 1100px){
+        .propuesta{
+
             &__mision{
     
                 margin: 80px 50px 80px 50px;
             }
         }
+        .seccion__principal{
+            &__text{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                max-width: 450px;
+                margin: 0px 0px 0px 0px;
+                color: #ffffff;
+                h2{
+                    max-width: 250px;
+                    margin: 0px;
+                    
+                }
+                p{
+                    max-width: 250px;
+                    
+                }
+        
+            }
     }
-
+}
 @media screen  and (max-width: 1000px){
-    .seccion__contacto{
+    .seccion{
+        &__contacto{
         background-color: #eeecf8;
     
         padding: 25px 50px 0px 50px;
+        }
+        &__principal{
+            &__img{
+                width: 350px;
+                img{
+                    width: 350px;
+                }
+            }
+        }
     }
+
     .pasos{
         &__seccion{
             flex-direction: column;
@@ -50,19 +97,23 @@
         align-items: center;
         padding: 0%;
         margin: 0%;
-        padding-right: 60px;
+        padding-right: 0px;
     }
     &__newsletter{
         justify-content: center;
 
     }
 
-    &__menu__icon{
-        margin: 10px 0px 20px 0px;
+    &__menu{
+        &__icon{
+            margin: 10px 0px 20px 0px;
+        }
     }
-    &__mar_zero{
-        padding: 0;
-        
+    &__mar{
+        &_zero{
+            padding: 0;
+            
+        }
     }
     .costos{
         &__tarjeta__incluye h4{
@@ -72,6 +123,9 @@
         &___tarjeta__base{
             width: 100%;
         }
+    }
+    .navbar__footer__logo {
+        width: 100px;
     }
 }
 }
@@ -90,9 +144,9 @@
         &__principal{
             padding: 0px 15px 0px 15px;
             &__img{
-                img{
+                
                     width: 350px;
-                }
+                
                 display: flex;
                 justify-content: center;                
             }
@@ -141,13 +195,10 @@
                 input{
                     text-align: center;
                     width: 350px;
+                    padding: 0px;
     
                      }
-                    textarea{
-                        text-align: center;
-                        width: 350px;
 
-                    }
                 
             }
 
@@ -155,6 +206,9 @@
             &__botones{
     
             }
+        }
+        &__text{
+            text-align: center;
         }
 
     }
@@ -234,21 +288,39 @@
             margin: 0px;
             align-items: center;
 
+
+            h2{
+                font-size: 3rem;
+                padding-bottom: 15px
+
+                
+                }
+                h4{
+                font-size: 1.5rem;
+                padding-bottom: 15px
+                }
+        }
+
         &__imagen{
             margin:  0px;
             max-width: 250px;
     
                 }
-        }
-        h2{
-            padding: 20px;
-        }
-        h4{
-            padding-bottom: 15px;
-        }
+}
+        
 
-    
-    
+    .contacto{
+        
+        &__text{
+            padding: 0px;
+            h2{
+
+                font-size: 4rem;
+            }
+            h4{
+                font-size: 3rem;
+            }
+        }
     }
 }
 
@@ -277,7 +349,7 @@
         margin: 10px 0px 35px 0px;
     }
     &__menu__logo{
-        margin: 20px;
+        margin: 0px;
     }
     }
 
@@ -324,6 +396,9 @@
             &__botones{
     
             }
+        }
+        &__encuentranos h2{
+            font-size: $text-medium;
         }
     }
     

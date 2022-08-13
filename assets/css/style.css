@@ -68,13 +68,15 @@
     max-width: 350px; }
     .contacto__conoce__datos input {
       border: none;
-      width: 250px;
+      width: none;
       background-color: #ffffff;
       height: 45px;
       border-radius: 5px;
       margin: 5px;
+      padding-left: 15px;
       text-align: none;
-      color: #000000; }
+      color: #000000;
+      font-size: 1.4em; }
     .contacto__conoce__datos__boton {
       max-width: 150px;
       background-color: #000000; }
@@ -360,13 +362,39 @@ p {
     margin: 0px 0px 0px 100px; } }
 
 @media screen and (max-width: 1300px) {
+  .seccion__principal__text {
+    width: 450;
+    margin: 0px 0px 0px 100px;
+    text-align: start; }
+    .seccion__principal__text h1 {
+      margin: 0%;
+      max-width: auto; } }
+
+@media screen and (max-width: 1100px) {
   .propuesta__mision {
-    margin: 80px 50px 80px 50px; } }
+    margin: 80px 50px 80px 50px; }
+  .seccion__principal__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 450px;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff; }
+    .seccion__principal__text h2 {
+      max-width: 250px;
+      margin: 0px; }
+    .seccion__principal__text p {
+      max-width: 250px; } }
 
 @media screen and (max-width: 1000px) {
   .seccion__contacto {
     background-color: #eeecf8;
     padding: 25px 50px 0px 50px; }
+  .seccion__principal__img {
+    width: 350px; }
+    .seccion__principal__img img {
+      width: 350px; }
   .pasos__seccion {
     flex-direction: column;
     align-items: center; } }
@@ -378,7 +406,7 @@ p {
     align-items: center;
     padding: 0%;
     margin: 0%;
-    padding-right: 60px; }
+    padding-right: 0px; }
   .footer__newsletter {
     justify-content: center; }
   .footer__menu__icon {
@@ -388,7 +416,9 @@ p {
   .footer .costos__tarjeta__incluye h4 {
     width: 100%; }
   .footer .costos___tarjeta__base {
-    width: 100%; } }
+    width: 100%; }
+  .footer .navbar__footer__logo {
+    width: 100px; } }
 
 @media screen and (max-width: 900px) {
   .contacto__text {
@@ -396,10 +426,9 @@ p {
   .seccion__principal {
     padding: 0px 15px 0px 15px; }
     .seccion__principal__img {
+      width: 350px;
       display: flex;
-      justify-content: center; }
-      .seccion__principal__img img {
-        width: 350px; } }
+      justify-content: center; } }
 
 @media screen and (max-width: 800px) {
   .ejemplo__base {
@@ -421,10 +450,10 @@ p {
     align-items: center; }
     .contacto__conoce__datos input {
       text-align: center;
-      width: 350px; }
-    .contacto__conoce__datos textarea {
-      text-align: center;
-      width: 350px; } }
+      width: 350px;
+      padding: 0px; }
+  .contacto__text {
+    text-align: center; } }
 
 @media screen and (max-width: 600px) {
   .seccion__principal__text {
@@ -471,13 +500,21 @@ p {
     padding: 20px;
     margin: 0px;
     align-items: center; }
-    .ejemplo__base__imagen {
-      margin: 0px;
-      max-width: 250px; }
-  .ejemplo h2 {
-    padding: 20px; }
-  .ejemplo h4 {
-    padding-bottom: 15px; } }
+    .ejemplo__base h2 {
+      font-size: 3rem;
+      padding-bottom: 15px; }
+    .ejemplo__base h4 {
+      font-size: 1.5rem;
+      padding-bottom: 15px; }
+  .ejemplo__imagen {
+    margin: 0px;
+    max-width: 250px; }
+  .contacto__text {
+    padding: 0px; }
+    .contacto__text h2 {
+      font-size: 4rem; }
+    .contacto__text h4 {
+      font-size: 3rem; } }
 
 @media screen and (max-width: 400px) {
   .ejemplo__base__imagen {
@@ -488,7 +525,7 @@ p {
   .navbar__menu__icon {
     margin: 10px 0px 35px 0px; }
   .navbar__menu__logo {
-    margin: 20px; }
+    margin: 0px; }
   .costos___tarjeta__incluye {
     width: 100%;
     padding: 5px; }
@@ -505,4 +542,6 @@ p {
       width: 200px; }
     .contacto__conoce__datos textarea {
       text-align: center;
-      width: 200px; } }
+      width: 200px; }
+  .contacto__encuentranos h2 {
+    font-size: 2.2em; } }
