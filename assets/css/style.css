@@ -110,8 +110,7 @@
     margin-bottom: 15px;
     margin-top: 15px; }
   .contacto__encuentranos__img {
-    max-height: 350px;
-    transform: rotateY(180deg); }
+    max-height: 350px; }
 
 .seccion__contacto {
   background-color: #eeecf8;
