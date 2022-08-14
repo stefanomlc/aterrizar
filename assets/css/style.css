@@ -231,8 +231,8 @@
     padding: 0; }
 
 .footer {
-  background-color: var(--text-white);
-  color: var(--alternative);
+  background-color: #ffffff;
+  color: linear-gradient(to right, #8276da, #6958de);
   max-width: 100px; }
   .footer__derechos {
     font-size: small;
@@ -254,7 +254,7 @@
 .navbar__footer__logo {
   width: clamp(150px, 89%, 200px); }
 
-.navba__newsletter {
+.navbar__newsletter {
   padding: 1rem 0rem 1rem 0rem; }
 
 .navbar__menu__item {

@@ -1,6 +1,6 @@
 .footer{
-    background-color: var(--text-white);
-    color: var(--alternative);
+    background-color: $text-white;
+    color: $gradiente;
     max-width: 100px;
     &__derechos{
         font-size: small;
@@ -27,8 +27,8 @@
 }
 
 /* ------------ footer------------ */
-.navba{
-    &r__footer__logo{
+.navbar{
+    &__footer__logo{
         width: clamp(150px, 89%,200px);
         
     }
