@@ -21,3 +21,7 @@
 <p>Versión Móvil</p>
 
 <a href="https://imgur.com/k59Qu6i"><img src="https://i.imgur.com/k59Qu6i.png" title="source: imgur.com" /></a>
+
+<h2> Stefano López </h2>
+
+<p>Creador del proyecto</p>

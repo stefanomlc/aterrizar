@@ -31,7 +31,7 @@
         padding: 0px 2rem 0px 2rem;
         max-width: 350px;
 
-        input{
+        &__info{
             border: none;
             width: none;
             background-color: #ffffff;
@@ -47,8 +47,21 @@
 
 
         &__boton{
+            border: none;
+            width: none;
+            background-color: #ffffff;
+            height: 45px;
+            border-radius: 5px;
+            margin: 5px;
+            text-align: center;
+            font-size: $text-small;
+            max-width: 150px;           
+
+        }
+        &__boton:hover{
             max-width: 150px;
-            background-color: #000000;
+            background-image: $gradiente;
+            color: #ffffff;
 
         }
     }

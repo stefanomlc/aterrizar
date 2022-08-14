@@ -81,36 +81,56 @@
 }
 .contacto__conoce__datos input {
   border: none;
-  width: 250px;
+  width: none;
   background-color: #ffffff;
   height: 45px;
   border-radius: 5px;
   margin: 5px;
+  padding-left: 15px;
   text-align: none;
   color: #000000;
-}
-.contacto__conoce__datos textarea {
-  border: none;
-  background-color: #ffffff;
-  width: 250px;
-  border-radius: 5px;
-  margin: 5px;
-  height: 100px;
+  font-size: 1.4em;
 }
 .contacto__conoce__datos__boton {
-  /* text-align: center;
-  color: #ffffff; */
   max-width: 150px;
+  background-color: #000000;
 }
 .contacto__text {
   max-width: 550px;
   padding: 0px 0px 0px 22rem;
   color: #000000;
 }
+.contacto__encuentranos {
+  max-width: 350px;
+  padding: 0px 0px 0px 0rem;
+  color: #000000;
+}
+.contacto__encuentranos a {
+  text-decoration: none;
+  font-size: 2.2em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.contacto__encuentranos h2 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.contacto__encuentranos__img {
+  max-height: 350px;
+  transform: rotateY(180deg);
+}
 
 .seccion__contacto {
   background-color: #eeecf8;
   padding: 25px 200px 0px 200px;
+}
+
+.googlemap {
+  width: 100vw;
+  height: 450px;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* --------- Página INDEX ---------- */
@@ -256,8 +276,8 @@
 }
 
 .footer {
-  background-color: var(--text-white);
-  color: var(--alternative);
+  background-color: #ffffff;
+  color: linear-gradient(to right, rgb(130, 118, 218), rgb(105, 88, 222));
   max-width: 100px;
 }
 .footer__derechos {
@@ -267,16 +287,23 @@
 }
 .footer__boton {
   border: 0px;
-  max-width: 170px;
+  max-width: 130px;
   color: #302F4D;
   font-weight: 600;
+}
+.footer__boton:hover {
+  border: 0px;
+  max-width: 130px;
+  color: white;
+  background-color: rgb(130, 118, 218);
+  font-weight: 400;
 }
 
 /* ------------ footer------------ */
 .navbar__footer__logo {
   width: clamp(150px, 89%, 200px);
 }
-.navba__newsletter {
+.navbar__newsletter {
   padding: 1rem 0rem 1rem 0rem;
 }
 
@@ -303,7 +330,7 @@
 /* --------- Estilo boton ---------- */
 .btn {
   text-align: center;
-  color: var(#e5e4fa);
+  color: #302F4D;
   background-color: white;
   margin: 0px;
   font-size: 15px;
@@ -404,14 +431,47 @@ p {
   }
 }
 @media screen and (max-width: 1300px) {
+  .seccion__principal__text {
+    width: 450;
+    margin: 0px 0px 0px 100px;
+    text-align: start;
+  }
+  .seccion__principal__text h1 {
+    margin: 0%;
+    max-width: auto;
+  }
+}
+@media screen and (max-width: 1100px) {
   .propuesta__mision {
     margin: 80px 50px 80px 50px;
+  }
+  .seccion__principal__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 450px;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+  }
+  .seccion__principal__text h2 {
+    max-width: 250px;
+    margin: 0px;
+  }
+  .seccion__principal__text p {
+    max-width: 250px;
   }
 }
 @media screen and (max-width: 1000px) {
   .seccion__contacto {
     background-color: #eeecf8;
     padding: 25px 50px 0px 50px;
+  }
+  .seccion__principal__img {
+    width: 350px;
+  }
+  .seccion__principal__img img {
+    width: 350px;
   }
   .pasos__seccion {
     flex-direction: column;
@@ -425,7 +485,7 @@ p {
     align-items: center;
     padding: 0%;
     margin: 0%;
-    padding-right: 60px;
+    padding-right: 0px;
   }
   .footer__newsletter {
     justify-content: center;
@@ -442,6 +502,9 @@ p {
   .footer .costos___tarjeta__base {
     width: 100%;
   }
+  .footer .navbar__footer__logo {
+    width: 100px;
+  }
 }
 @media screen and (max-width: 900px) {
   .contacto__text {
@@ -451,11 +514,9 @@ p {
     padding: 0px 15px 0px 15px;
   }
   .seccion__principal__img {
+    width: 350px;
     display: flex;
     justify-content: center;
-  }
-  .seccion__principal__img img {
-    width: 350px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -474,6 +535,9 @@ p {
     margin: 0px;
     max-width: 450px;
   }
+  .contacto__encuentranos {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 700px) {
   .contacto__conoce__datos {
@@ -482,10 +546,10 @@ p {
   .contacto__conoce__datos input {
     text-align: center;
     width: 350px;
+    padding: 0px;
   }
-  .contacto__conoce__datos textarea {
+  .contacto__text {
     text-align: center;
-    width: 350px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -547,15 +611,26 @@ p {
     margin: 0px;
     align-items: center;
   }
-  .ejemplo__base__imagen {
+  .ejemplo__base h2 {
+    font-size: 3rem;
+    padding-bottom: 15px;
+  }
+  .ejemplo__base h4 {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+  }
+  .ejemplo__imagen {
     margin: 0px;
     max-width: 250px;
   }
-  .ejemplo h2 {
-    padding: 20px;
+  .contacto__text {
+    padding: 0px;
   }
-  .ejemplo h4 {
-    padding-bottom: 15px;
+  .contacto__text h2 {
+    font-size: 4rem;
+  }
+  .contacto__text h4 {
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 400px) {
@@ -570,7 +645,7 @@ p {
     margin: 10px 0px 35px 0px;
   }
   .navbar__menu__logo {
-    margin: 20px;
+    margin: 0px;
   }
   .costos___tarjeta__incluye {
     width: 100%;
@@ -582,6 +657,9 @@ p {
   .solicitar__demo__base {
     flex-direction: column;
   }
+  .solicitar__demo__base .btn {
+    margin-top: 10px;
+  }
   .contacto__conoce__datos {
     padding: 0px 10px 0px 10px;
   }
@@ -592,5 +670,8 @@ p {
   .contacto__conoce__datos textarea {
     text-align: center;
     width: 200px;
+  }
+  .contacto__encuentranos h2 {
+    font-size: 2.2em;
   }
 }/*# sourceMappingURL=estilos.css.map */
